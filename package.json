@@ -1,5 +1,5 @@
 { "name": "speaky",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Brian White <mscdex@mscdex.net>",
   "description": "A binding to the SVOX Pico engine (libttspico) for performing text-to-speech",
   "main": "./lib/index",
