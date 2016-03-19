@@ -45,6 +45,7 @@ speaky.speak('Help, I am trapped in a computer!')
 // Audio data is formatted as raw 16KHz, 16-bit signed integer PCM.
 // The audio can be played via sox with:
 //   play -t raw -r 16000 -b 16 -c 1 -e signed-integer out.pcm
+```
 
 
 API
