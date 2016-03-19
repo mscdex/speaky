@@ -1,0 +1,18 @@
+{ "name": "speaky",
+  "version": "0.0.0",
+  "author": "Brian White <mscdex@mscdex.net>",
+  "description": "A binding to the SVOX Pico engine (libttspico) for performing text-to-speech",
+  "main": "./lib/index",
+  "dependencies": {
+    "nan": "^2.2.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "node test/test.js"
+  },
+  "os" : [ "!win32" ],
+  "engines": { "node": ">=0.10.0" },
+  "keywords": [ "tts", "speech", "svox", "pico", "texttospeech", "picotts", "ttspico" ],
+  "licenses": [ { "type": "MIT", "url": "https://github.com/mscdex/speaky/raw/master/LICENSE" } ],
+  "repository" : { "type": "git", "url": "https://github.com/mscdex/speaky.git" }
+}
